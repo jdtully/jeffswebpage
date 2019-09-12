@@ -1,0 +1,98 @@
+body {
+    background-image: url("/pictures/blue-and-white-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    ;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+img {
+    display: "block";
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 1000px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: transparent;
+    overflow-wrap: break-word;
+}
+
+.mainBody {
+    width: 1000px;
+    margin: auto;
+    background-color: transparent;
+    overflow-wrap: break-word;
+}
+
+ol {
+    text-align: center;
+}
+
+.date {
+    text-align: left;
+    padding-left: 50px;
+}
+
+#contact {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#summary {
+    padding-top: 15px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#mainHeader {
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.expHeader {
+    padding-left: 20px;
+    font-size: 35px;
+}
+
+.locDate {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.title {
+    padding-left: 60px;
+    font-size: 30px;
+}
+
+
+
+.details {
+    overflow-wrap: break-word;
+    position: relative;
+    text-align: left;
+    padding-left: 80px;
+    text-align: left;
+    font-size: 20px;
+}
+
+#myName {
+    font-size: 40px;
+}

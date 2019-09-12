@@ -1,0 +1,134 @@
+.message {
+  margin-top: 20;
+  text-align: center;
+  color: blue;
+}
+.container {
+  margin-top: 50px;
+  align-items: center;
+}
+
+#table {
+  margin: 10;
+  color: red;
+  padding: 0;
+  border: 2px red solid;
+  width: 320px;
+}
+/* I halved he height and  width  to shrink the table */
+td {
+  text-align: center;
+  color: black;
+  padding: 10px;
+  height: 10pxpx;
+  width: 10px;
+  border: 2px red solid;
+  margin: 1px;
+}
+td.hover {
+  background-color: green;
+  border-color: black;
+  border-width: 2px;
+  margin: 3px;
+}
+td.shotHit {
+  background-color: red;
+  border-color: black;
+  border-width: 2px;
+  margin: 3px;
+}
+td.shotMiss {
+  background-color: green;
+  border-color: black;
+  border-width: 2px;
+  margin: 3px;
+}
+td.outofbounds {
+  background-color: red;
+  border-color: black;
+  border-width: 2px;
+  margin: 3px;
+}
+
+.btn-group-vertical {
+  border: none;
+}
+/* I halved  the fontsize and the padding  to make these  smaller  */
+.ship {
+  background-color: blue;
+  padding: 5px;
+  border-radius: 8px;
+  margin: 2px;
+  font-size: 15px;
+  align-self: center;
+  width: 150px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+.action {
+  background-color: orangered;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 0px;
+  font-size: 20px;
+  align-self: center;
+  width: 150px;
+}
+div {
+  border: transparent;
+}
+.bottom-messages {
+  margin-top: 30px;
+  text-align: center;
+  color: blue;
+}
+#gamename {
+  text-align: center;
+  color: blue;
+}
+
+#status {
+  margin-top: 20px;
+}
+td.col_carrier {
+  background-color: pink;
+  border-color: black;
+}
+/* colors for placed ships*/
+td.col_battleShip {
+  background-color: orange;
+  border-color: black;
+}
+td.col_cruiser {
+  background-color: green;
+  border-color: black;
+}
+td.col_submarine {
+  background-color: blue;
+  border-color: black;
+}
+
+td.col_destroyer {
+  background-color: yellow;
+  border-color: black;
+}
+
+td.shotHit {
+  background-color: yellow;
+  border-color: black;
+}
+
+td.target {
+  background-color: red;
+}
+td.placed_ship {
+  background-color: red;
+}
+td.shipHit {
+  background-size: 50px 50px;
+  background-position: center;
+  background-repeat: 1;
+  background-image: url("./boom.png");
+}
