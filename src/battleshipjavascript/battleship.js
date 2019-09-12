@@ -709,11 +709,11 @@ function clickShip(el, ship) {
   }
 }
 
-function markShipObject(ship, currentOrientation, currentselection) {
-  ship.orientation = currentOrientation;
-  ship.targets = currentselection;
-  ship.placed = true;
-}
+//function markShipObject(ship, currentOrientation, currentselection) {
+// ship.orientation = currentOrientation;
+// ship.targets = currentselection;
+// ship.placed = true;
+//}
 
 function hideShipsTable(currentPlayer) {
   console.log(currentPlayer);
