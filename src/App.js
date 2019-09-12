@@ -1,11 +1,13 @@
-import React from "react";
-
+import React, {component} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./resume/style.css";
+import {Resume} from "./resume/resume";
 
-import "./style.css";
+const myResume = Resume;
 
-function App() {
-  return (
+class App extends component() {
+  render(){
+ return (
     <div className="App">
       <div className="container">
         <div className="row">
@@ -28,7 +30,7 @@ function App() {
                 <a href="tic-tac-toejavascript/root.html">Tic Tac Toe</a>{" "}
               </li>
               <li>
-                <a href="src/battleshipjavascript/index.html">Javascript</a>
+                <h1>myResume</h1>
               </li>
 
               <li> Project 3</li>
@@ -42,12 +44,12 @@ function App() {
             <h2> About Me </h2>
             <img src="./" alt=" smiling  me" height="100" width="100" />
             <h2>
-              <a href="/resume.html"> My Resume </a>
+              <a href="Resume"> My Resume </a>
             </h2>
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
 export default App;
