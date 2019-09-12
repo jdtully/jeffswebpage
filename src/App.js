@@ -13,7 +13,7 @@ function App() {
             <blockquote>
               <h1>
                 My Name is <br />
-                Jeffrey Tully
+                Jeffrey Tully.
                 <br />
                 I am currently working on
                 <br /> improving my life.
