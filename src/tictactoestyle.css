@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    margin-top: 20 px;
+    font: 14px "Century Cothic", Futura, sans-serif;
+    text-align: center;
+}
+
+ol,
+ul {
+    padding-left: 30px;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    margin-bottom: 10px;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#status {
+    font-size: 50px;
+    color: red;
+    padding: 0px;
+}
+
+.h2 {
+    color: white;
+}
