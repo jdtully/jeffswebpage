@@ -4,4 +4,4 @@ import { storiesOf } from "@storybook/react";
 
 import { Row } from "../tic-tac-toejavascript/tictactoeRow";
 
-storiesOf("Row").add("to Storybook", () => <Row />);
+storiesOf("Row").add("to Storybook", () => <Row cols={3} />);

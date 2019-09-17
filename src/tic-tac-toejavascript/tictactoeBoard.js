@@ -1,36 +1,17 @@
-import React from "react";
-import Square from "./tictactoeSquare";
+import React, { Component } from "react";
+import "./style.css";
+import { Row } from "./tictactoeRow";
 
-export default class Board extends React.Component {
-constructor(props) {
-        super(props) ;
-        this.state.rows= [...Array(props.rows)]
+export class Board extends Component {
+  constructor(props) {
+    super(props);
+    const numRows = props.rows;
+    this.state = {
+      rows: [...Array(numRows)]
+    };
+  }
 
-
+  render() {
+    return this.state.rows.map((w, j) => <Row key={j} />);
+  }
 }
-    
-
-//function add squares to  grid
- //   make a row
- //   add 3 squares to it
-  //  make a column 
-  //  add 3 rows  to it
-  
-
-
-render(){
-
-    board=()=>(this.state.rows.map()) {
-    
-            }
-    }
-
-    return (
-        <div>    
-
-          
-        </div>
-    )
-}
-
-export default Square;

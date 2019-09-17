@@ -1,9 +1,9 @@
-import React, { component } from "react";
+import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./resume/style.css";
 import { Resume } from "./resume/resume";
 
-class App extends component() {
+class App extends Component {
   render() {
     return (
       <div className="App">
