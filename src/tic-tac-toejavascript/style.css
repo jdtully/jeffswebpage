@@ -10,10 +10,9 @@ ul {
   padding-left: 30px;
 }
 
-.board-row:after {
-  clear: both;
-  content: "";
-  display: table;
+.board {
+
+  align-content: center;
 }
 
 .status {
@@ -23,15 +22,22 @@ ul {
 .square {
   background: #fff;
   border: 1px solid #999;
-  float: left;
-  font-size: 24px;
-  font-weight: bold;
+
+
+}
+
+.row {
+  background: #fff;
+
+
+
 }
 
 button {
-  padding: 10px;
+  height: 30px;
+  width: 30px;
   font-size: 30px;
-  margin-top: 10px;
+
 }
 
 #status {

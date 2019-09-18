@@ -12,6 +12,12 @@ export class Board extends Component {
   }
 
   render() {
-    return this.state.rows.map((w, j) => <Row key={j} />);
+    return (
+      <div className="board">
+        {this.state.rows.map((w, j) => (
+          <Row key={j} cols={3} />
+        ))}
+      </div>
+    );
   }
 }

@@ -10,14 +10,9 @@ export class Square extends Component {
   }
   render() {
     return (
-      <div>
-        <button
-          className="square"
-          onClick={() => this.setstate({ value: "x" })}
-        >
-          {this.state.value}
-        </button>
-      </div>
+      <button className="square" onClick={() => this.setstate({ value: "x" })}>
+        {this.state.value}
+      </button>
     );
   }
 }

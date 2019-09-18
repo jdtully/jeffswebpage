@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
 import { Square } from "./tictactoeSquare";
+import PropTypes from "prop-types";
 
 export class Row extends Component {
   constructor(props) {
@@ -12,6 +13,15 @@ export class Row extends Component {
   }
 
   render() {
-    return this.state.cols.map((v, i) => <Square key={i} />);
+    return (
+      <div className="row">
+        {this.state.cols.map((v, i) => (
+          <Square key={i} />
+        ))}
+      </div>
+    );
   }
 }
+Row.propTypes = {
+  cols: PropTypes.number.isRequired
+};
