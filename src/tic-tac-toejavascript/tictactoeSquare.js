@@ -9,8 +9,21 @@ export class Square extends Component {
     };
   }
   render() {
+    let style = {};
+    Object.assign(
+      style,
+      this.props.height ? { height: this.props.height } : {}
+    );
+    Object.assign(
+      style,
+      this.props.color ? { background: this.props.color } : {}
+    );
+    Object.assign(
+      style,
+      this.props.content ? { content: this.props.content } : {}
+    );
     return (
-      <button className="square" onClick={() => this.setstate({ value: "x" })}>
+      <button className="square" style={style}>
         {this.state.value}
       </button>
     );
